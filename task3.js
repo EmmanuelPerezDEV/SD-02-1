@@ -5,15 +5,15 @@ for (let I = 1; I <=  105; I++) {
   //if(I%3==0 && I%5==0 && I%7==0){
    // console.log("FizzBuzzWoof");
  // }
-    if(I%3==0 && I%7==0){
-    console.log("FizzWoof");
-  }
-     else if(I%5==0 && I%7==0){
-    console.log("BuzzWoof");
-  }
+  //   if(I%3==0 && I%7==0){
+  //   console.log("FizzWoof");
+  // }
+  //    else if(I%5==0 && I%7==0){
+  //   console.log("BuzzWoof");
+  // }
   
   
-  else if(I%3==0 && I%5==0){
+   if(I%3==0 && I%5==0){
     console.log("FizzBuzz");
   }
   
@@ -26,11 +26,11 @@ for (let I = 1; I <=  105; I++) {
     
     
 }
-else if (I%7==0) {
-    {console.log("Woof");}
+// else if (I%7==0) {
+//     {console.log("Woof");}
     
     
-}
+// }
 else{console.log(I);
 }
 
